@@ -27,9 +27,28 @@ export default function getAllProducts() {
         category: 'Espresso',
         price: 23_000,
         stock: 0,
+        imageUrl: 'public/assets/images/HotLatte.png',
+        description: `Hot Latte is the perfect combination of rich espresso and creamy hot milk, creating a smooth, creamy taste with every sip. Ideal for those of you who like coffee with a touch of comfortable warmth, suitable to be enjoyed at any time to calm your day.`
+      },
+      {
+        id: 'FBC-BF',
+        slug: 'hot-latte-espresso',
+        name: "Freshly Brewed Coffee",
+        category: 'Brewed Coffee',
+        price: 23_000,
+        stock: 0,
         imageUrl: 'public/assets/images/Latte.png',
         description: `Hot Latte is the perfect combination of rich espresso and creamy hot milk, creating a smooth, creamy taste with every sip. Ideal for those of you who like coffee with a touch of comfortable warmth, suitable to be enjoyed at any time to calm your day.`
       },
-  
+      {
+        id: 'CB-BF',
+        slug: 'hot-latte-espresso',
+        name: "Cold Brew",
+        category: 'Brewed Coffee',
+        price: 23_000,
+        stock: 0,
+        imageUrl: 'public/assets/images/Espresso.png',
+        description: `Hot Latte is the perfect combination of rich espresso and creamy hot milk, creating a smooth, creamy taste with every sip. Ideal for those of you who like coffee with a touch of comfortable warmth, suitable to be enjoyed at any time to calm your day.`
+      },
     ]
   }

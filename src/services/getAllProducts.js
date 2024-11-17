@@ -5,10 +5,10 @@ export default function getAllProducts() {
         slug: 'espresso-espresso',
         name: "Espresso",
         category: 'Espresso',
-        price: 10_000,
+        price: 12_000,
         stock: 100,
         imageUrl: 'public/assets/images/Espresso.png',
-        description: `The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine.`
+        description: `Espresso is concentrated coffee made from high quality coffee beans, producing a strong taste and distinctive aroma that is appetizing. Suitable to enjoy at any time to provide an injection of energy and freshness. Every sip brings an unrivaled sensation of warmth and deliciousness.`
       },
       {
         id: 'IA-ESP',
@@ -18,17 +18,17 @@ export default function getAllProducts() {
         price: 18_000,
         stock: 10,
         imageUrl: `public/assets/images/IcedAmericano.png`,
-        description: `Comfortable, durable and timeless—it's number 1 for a reason. The classic '80s construction pairs with bold details for style that tracks whether you're on court or on the go.`
+        description: `Americano Ice is a perfect blend of strong espresso and cold water, served with ice cubes to provide a refreshing, refreshing sensation. Enjoy the strong and light taste of coffee with a cool touch that is ideal to accompany your activities throughout the day.`
       },
       {
-        id: 'E-ESP',
-        slug: 'espresso-espresso',
-        name: "Espresso",
+        id: 'HL-ESP',
+        slug: 'hot-latte-espresso',
+        name: "Hot Latte",
         category: 'Espresso',
-        price: 10_000,
+        price: 23_000,
         stock: 0,
-        imageUrl: 'public/assets/images/Espresso.png',
-        description: `The radiance lives on in the Nike Air Force 1 '07, the b-ball icon that puts a fresh spin on what you know best: crisp leather, bold colours and the perfect amount of flash to make you shine.`
+        imageUrl: 'public/assets/images/Latte.png',
+        description: `Hot Latte is the perfect combination of rich espresso and creamy hot milk, creating a smooth, creamy taste with every sip. Ideal for those of you who like coffee with a touch of comfortable warmth, suitable to be enjoyed at any time to calm your day.`
       },
   
     ]
